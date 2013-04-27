@@ -1,0 +1,121 @@
+/***************************************
+main CSS file
+
+***************************************/
+html, body{
+	height:100%;
+}
+
+.container{
+	margin:0 auto;
+}
+
+@media (min-width:979px){
+	.container{
+		background:white;
+		padding:0 50px 50px 30px ;
+		width:1024px;
+		margin:0 auto;
+	}
+}
+/***************************************
+ Navigation
+***************************************/
+nav{
+	margin-top:0;
+}
+li.navcell{
+	float:left;
+	margin-right:10px;
+}
+
+ul.navtop{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	/*
+	font-size:20px;
+	text-align:center;
+	width:120px;
+	height:120px;
+	background:#77bd42;
+	display:none;
+	*/
+}
+a.navlinks:link,a.navlinks:visited
+{
+	display:block;
+	width:120px;
+	font-weight:bold;
+	color:#ffffff;
+	background-color:#77bd42;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+}
+a.navlinks:hover,a.navlinks:active
+{
+	background-color:#7A991A;
+
+}
+.navcellcol{
+	width:100% !important;
+}
+
+/*
+
+.wrapper{
+	width:auto;
+}
+
+a:link{
+	text-decoration:none;
+}
+article{
+	font-family: 'Junge', serif;
+	font-size: 20px;
+}
+.icon{
+	width:130px;
+	height:auto;
+	position:absolute;
+	margin-top:150px;
+	margin-left:80px;
+	border:1px solid;
+}
+.icon:hover{
+	background:white;
+}
+#bottom{
+	width:130px;
+	height:auto;
+	border:5px solid;
+	margin-top:-70px;
+	margin-left:50px;
+	background: white;
+}
+.navbox{
+	display:inline;
+	background: black;
+	width:150px;
+	height:30px;
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+	text-align:center;
+	padding:0 10px;
+	margin-right:5px;
+}
+.navbox a{
+	color:white;
+}
+.navbox:hover{
+	opacity:0.7;
+}
+.navbox a:visited{
+	background-color:white;
+	text-decoration:inherit;
+}
+
+*/
