@@ -24,6 +24,9 @@ html, body{
 nav{
 	margin-top:0;
 }
+.activeNav{
+	background-color:#0e78a0 !important;
+}
 li.navcell{
 	float:left;
 	margin-right:10px;
@@ -46,7 +49,7 @@ ul.navtop{
 a.navlinks:link,a.navlinks:visited
 {
 	display:block;
-	width:120px;
+	width:125px;
 	font-weight:bold;
 	color:#ffffff;
 	background-color:#77bd42;
@@ -62,6 +65,26 @@ a.navlinks:hover,a.navlinks:active
 .navcellcol{
 	width:100% !important;
 }
+/***************************************
+Content
+***************************************/
+article{
+	/*font-family:*/
+}
+h1.welcome{
+	font-size:45px;
+	padding-bottom:20px;
+}
+/***************************************
+Divider
+***************************************/
+.divider{
+/*	background-color:#ff870f;*/
+	height:40px;
+	width:100%;
+}
+
+
 
 /*
 
