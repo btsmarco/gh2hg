@@ -13,8 +13,8 @@ html, body{
 @media (min-width:979px){
 	.container{
 		background:white;
-		padding:0 50px 50px 30px ;
-		width:1024px;
+		/*padding:0 50px 50px 30px ;*/
+		width:900px;
 		margin:0 auto;
 	}
 }
@@ -60,7 +60,6 @@ a.navlinks:link,a.navlinks:visited
 a.navlinks:hover,a.navlinks:active
 {
 	background-color:#7A991A;
-
 }
 .navcellcol{
 	width:100% !important;
@@ -69,21 +68,39 @@ a.navlinks:hover,a.navlinks:active
 Content
 ***************************************/
 article{
-	/*font-family:*/
+	font-family:'Times New Romans';	
+	font-size:20px;
+	line-height:110%;
 }
 h1.welcome{
 	font-size:45px;
-	padding-bottom:20px;
+	padding:40px 0 20px 0;
+	font-family: 'Brawler', serif;
+}
+h2.Title{
+	padding:20px 0 20px 0;
+	font-family: 'Bitter', serif;
+
 }
 /***************************************
 Divider
 ***************************************/
 .divider{
-/*	background-color:#ff870f;*/
-	height:40px;
+	height:30px;
 	width:100%;
+	padding-top:5px;
+}
+#gandi{
+	background-color:#ff870f;
+	font-family: 'Delius Swash Caps', cursive;
+	font-size:23px;
 }
 
+#ronald{
+	background-color:#8a8385;
+	font-family:'The Girl Next Door', cursive;
+	font-size:23px;
+}
 
 
 /*
