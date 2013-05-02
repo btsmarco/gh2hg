@@ -17,15 +17,19 @@ html, body{
 	background:white;
 	/* Negative indent footer by it's height */
 	margin: 0 auto -60px;
-
 }
 @media (min-width:979px){
+	#Navi{
+		width:900px;
+	}
 	.wrapper{
 		background:white;
+
 	}
+
 	.container{
 		width:900px;
-		margin:0 auto;
+		margin:0 auto 30px auto;
 	}
 }
 /***************************************
@@ -87,7 +91,7 @@ article{
 }
 h1.welcome{
 	font-size:55px;
-	padding:40px 0 20px 0;
+	padding:0 0 20px 0;
 	/* Choose something different */
 	/*font-family: 'Brawler', serif;*/
 	margin-top:30px;
@@ -124,20 +128,22 @@ Footer
 ***************************************/
 
 /* Set the fixed height of the footer here */
-#push,#footer {
+#push,.footer {
 	height: 60px;
 }
-#footer {
+.footer {
 	background-color:#77bd42;
 }
 .sidefooter{
 	background-color:#0e78a0 !important;
 	height: inherit;
 }
-
+.social{
+	text-decoration: none;
+}
 /* Lastly, apply responsive CSS fixes as necessary */
 @media (max-width: 767px) {
-	#footer {
+	 .footer {
 	  margin-left: -20px;
 	  margin-right: -20px;
 	  padding-left: 20px;
