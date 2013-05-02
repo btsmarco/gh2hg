@@ -7,7 +7,7 @@ html, body{
 }
 
 /* Container for page content to push down footer */
-.container{
+.sect{
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
@@ -24,10 +24,9 @@ html, body{
 	}
 	.wrapper{
 		background:white;
-
 	}
 
-	.container{
+	.sect{
 		width:900px;
 		margin:0 auto 30px auto;
 	}
@@ -128,84 +127,28 @@ Footer
 ***************************************/
 
 /* Set the fixed height of the footer here */
-#push,.footer {
-	height: 60px;
+#push,
+#footer {
+	height: auto;
 }
-.footer {
-	background-color:#77bd42;
+#footer {
+	background-color: #77bd42;
+	height: auto !important;
 }
+
 .sidefooter{
 	background-color:#0e78a0 !important;
-	height: inherit;
-}
-.social{
-	text-decoration: none;
+	height: auto;
 }
 /* Lastly, apply responsive CSS fixes as necessary */
 @media (max-width: 767px) {
-	 .footer {
-	  margin-left: -20px;
-	  margin-right: -20px;
-	  padding-left: 20px;
-	  padding-right: 20px;
-	}
+#footer {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 }
 
 
 
-/*
-
-.wrapper{
-	width:auto;
-}
-
-a:link{
-	text-decoration:none;
-}
-article{
-	font-family: 'Junge', serif;
-	font-size: 20px;
-}
-.icon{
-	width:130px;
-	height:auto;
-	position:absolute;
-	margin-top:150px;
-	margin-left:80px;
-	border:1px solid;
-}
-.icon:hover{
-	background:white;
-}
-#bottom{
-	width:130px;
-	height:auto;
-	border:5px solid;
-	margin-top:-70px;
-	margin-left:50px;
-	background: white;
-}
-.navbox{
-	display:inline;
-	background: black;
-	width:150px;
-	height:30px;
-	color:white;
-	text-decoration:none;
-	font-size:20px;
-	text-align:center;
-	padding:0 10px;
-	margin-right:5px;
-}
-.navbox a{
-	color:white;
-}
-.navbox:hover{
-	opacity:0.7;
-}
-.navbox a:visited{
-	background-color:white;
-	text-decoration:inherit;
-}
-
-*/
