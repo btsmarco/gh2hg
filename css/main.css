@@ -11,7 +11,7 @@ html, body{
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin:0 auto;
+	margin:0 auto 30px auto;
 	}
 .wrapper{
 	background:white;
@@ -84,8 +84,6 @@ article{
 }
 .welcomelogo{
 	margin-top:40px;
-	height:300px;
-	width:auto;
 }
 h1.welcome{
 	font-size:55px;
@@ -99,7 +97,7 @@ h2.Title{
 	font-family: 'Bitter', serif;
 }
 section{
-	
+	margin-bottom:50px;	
 }
 /***************************************
 Divider
@@ -127,7 +125,7 @@ Footer
 
 /* Set the fixed height of the footer here */
 #push,#footer {
-	height: auto;
+	height: 60px;
 }
 #footer {
 	background-color:#77bd42;
