@@ -88,6 +88,10 @@ article{
 .welcomelogo{
 	margin-top:40px;
 }
+.wel{
+	font-size:30px;
+	line-height:115% !important;
+}
 h1.welcome{
 	font-size:55px;
 	padding:0 0 20px 0;
@@ -111,15 +115,24 @@ Divider
 	padding-top:5px;
 	text-align:center;
 }
-#gandi{
+#orange{
 	background-color:#ff870f;
 	font-family: 'Delius Swash Caps', cursive;
 	font-size:23px;
 }
-
-#ronald{
+#pink{
+	background-color:#fa004b;
+	font-family:'The Girl Next Door', cursive;
+	font-size:23px;
+}
+#gray{
 	background-color:#8a8385;
 	font-family:'The Girl Next Door', cursive;
+	font-size:23px;
+}
+#brown{
+	background-color:#c76118;
+	font-family: 'Delius Swash Caps', cursive;
 	font-size:23px;
 }
 /***************************************
