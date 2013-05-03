@@ -125,7 +125,8 @@ section{
 Divider
 ***************************************/
 .divider{
-	height:30px;
+	height:auto;
+	min-height:30px;
 	width:100%;
 	padding-top:5px;
 	text-align:center;
