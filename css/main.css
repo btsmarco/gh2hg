@@ -79,6 +79,20 @@ a.navlinks:hover,a.navlinks:active
 .navcellcol{
 	width:100% !important;
 }
+img.navlinks{
+	float:left;
+	margin-right:10px;
+	padding: 0 !important;
+	display:block;
+	width:125px;
+	font-weight:bold;
+	color:#ffffff;
+	text-align:center;
+	text-decoration:none;
+}
+.navlogo{
+	padding: 0 !important;
+}
 /***************************************
 Content
 ***************************************/
