@@ -60,14 +60,6 @@ ul.navtop{
 	margin:0;
 	padding:0;
 	overflow:hidden;
-	/*
-	font-size:20px;
-	text-align:center;
-	width:120px;
-	height:120px;
-	background:#77bd42;
-	display:none;
-	*/
 }
 a.navlinks:link,a.navlinks:visited
 {
@@ -112,6 +104,10 @@ h1.welcome{
 h2.Title{
 	padding:20px 0 20px 0;
 	font-family: 'Bitter', serif;
+}
+a.Title{
+	color:#0e78a0 !important;
+	text-decoration:none;
 }
 section{
 	margin-bottom:50px;	
@@ -194,13 +190,15 @@ Footer
 }
 /* Lastly, apply responsive CSS fixes as necessary */
 @media (max-width: 767px) {
-#footer {
-  margin-left: -20px;
-  margin-right: -20px;
-  padding-left: 20px;
-  padding-right: 20px;
+	#footer {
+	  margin-left: -20px;
+	  margin-right: -20px;
+	  padding-left: 20px;
+	  padding-right: 20px;
+	}
 }
+a.footer{
+	color:#ffffff;
 }
-
 
 
