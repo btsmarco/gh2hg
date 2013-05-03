@@ -6,15 +6,19 @@ html, body{
 	height:100%;
 }
 
-/* Container for page content to push down footer */
 .sect{
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin:0 auto 30px auto;
-	}
+	/*margin:0 auto 30px auto;*/
+}
+
+/* Container for page content to push down footer */
 .wrapper{
 	background:white;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
 	/* Negative indent footer by it's height */
 	margin: 0 auto -60px;
 }
@@ -28,7 +32,13 @@ html, body{
 
 	.sect{
 		width:900px;
-		margin:0 auto 30px auto;
+		margin:0 auto 0 auto;
+	}
+}
+
+@media (min-width:768px) and (max-width:979px){
+	.sect{
+		padding:0 10px 0 10px;
 	}
 }
 /***************************************
@@ -106,6 +116,15 @@ h2.Title{
 section{
 	margin-bottom:50px;	
 }
+#vision{
+	width:500px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+#do{
+	line-height:130% !important;
+}
 /***************************************
 Divider
 ***************************************/
@@ -114,6 +133,7 @@ Divider
 	width:100%;
 	padding-top:5px;
 	text-align:center;
+	margin:30px auto 0 auto;
 }
 #orange{
 	background-color:#ff870f;
@@ -142,16 +162,33 @@ Footer
 /* Set the fixed height of the footer here */
 #push,
 #footer {
-	height: auto;
+	height: 60px;
 }
 #footer {
-	background-color: #77bd42;
 	height: auto !important;
+	background-color: #77bd42;
+	padding-top:20px
+	overflow: hidden;
+	width: 100%;	
+	position: relative;
+	font-size:18px;
+	margin-top:30px;
 }
-
+.leftf{
+	padding-top:10px;
+}
 .sidefooter{
 	background-color:#0e78a0 !important;
-	height: auto;
+	height: 100% !important;
+	right:0;
+	position:absolute !important;
+	padding-top:10px;
+	padding-left:10px;
+}
+.sect2{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
 }
 /* Lastly, apply responsive CSS fixes as necessary */
 @media (max-width: 767px) {
