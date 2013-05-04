@@ -135,6 +135,12 @@ section{
 #do{
 	line-height:130% !important;
 }
+.redtxt{
+	color:red;
+}
+.greentxt{
+	color:#77bd42;
+}
 /***************************************
 Divider
 ***************************************/
@@ -181,7 +187,7 @@ Footer
 #footer {
 	height: auto !important;
 	background-color: #77bd42;
-	padding-top:20px
+	padding-top:20px;
 	overflow: hidden;
 	width: 100%;	
 	position: relative;
