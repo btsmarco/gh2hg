@@ -147,18 +147,18 @@ About page
 img.eboard{
 	max-height:180px;
 }
-	h3.eboard{
+h3.eboard{
 	color:#5FA640;
 }
-@media (min-width: 767px) {
+@media (min-width: 480px) {
 	h3.eboard{
-	line-height:0px;
-	margin-bottom:30px;
-}
+		line-height:0px;
+		margin-bottom:30px;
+	}
 	.member{
-	width:400px;
-	height:200px;
-}
+		width:400px;
+		height:200px;
+	}
 }
 /***************************************
 Divider
@@ -170,24 +170,24 @@ Divider
 	padding-top:5px;
 	text-align:center;
 	margin:30px auto 0 auto;
+	color: #ffffff;
+	font-family: 'Delius Swash Caps', cursive;
+
 }
 #orange{
 	background-color:#ff870f;
-	font-family: 'Delius Swash Caps', cursive;
-	font-size:23px;
+
 }
 #pink{
 	background-color:#fa004b;
-	font-family:'The Girl Next Door', cursive;
 }
 #gray{
 	background-color:#8a8385;
-	font-family:'The Girl Next Door', cursive;
 }
 #brown{
 	background-color:#c76118;
-	font-family: 'Delius Swash Caps', cursive;
 }
+
 /***************************************
 Footer
 ***************************************/
