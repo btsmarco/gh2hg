@@ -216,7 +216,7 @@ Footer
 	padding-top:10px;
 }
 .sidefooter{
-	background-color:#0e78a0 !important;
+	/*background-color:#0e78a0 !important;*/
 	height: 100% !important;
 	right:0;
 	position:absolute !important;
