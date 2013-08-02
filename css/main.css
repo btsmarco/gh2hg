@@ -141,6 +141,25 @@ section{
 .greentxt{
 	color:#77bd42;
 }
+/**************************************
+About page
+***************************************/
+img.eboard{
+	max-height:180px;
+}
+	h3.eboard{
+	color:#5FA640;
+}
+@media (min-width: 767px) {
+	h3.eboard{
+	line-height:0px;
+	margin-bottom:30px;
+}
+	.member{
+	width:400px;
+	height:200px;
+}
+}
 /***************************************
 Divider
 ***************************************/
