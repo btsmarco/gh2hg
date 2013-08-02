@@ -150,7 +150,7 @@ img.eboard{
 h3.eboard{
 	color:#5FA640;
 }
-@media (min-width: 480px) {
+@media (min-width: 767px) {
 	h3.eboard{
 		line-height:0px;
 		margin-bottom:30px;
@@ -219,7 +219,7 @@ Footer
 }
 .sidefooter{
 	/*background-color:#0e78a0 !important;*/
-	height: 60% !important;
+	height: 50% !important;
 	right:0;
 	position:absolute !important;
 	padding-left:10px;
